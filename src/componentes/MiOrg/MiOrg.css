@@ -1,11 +1,12 @@
 .orgSection{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .title{
+    align-self: center;
     color: #6278F7;
     font-size: 40px;
     font-weight: 400;
@@ -14,7 +15,18 @@
 }
 
 .orgSection img{
-    position: absolute;
+    margin-right: 0;
     right: 30%;
     cursor: pointer;
+}
+@media (max-width: 480px) {
+   .orgSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .orgSection img {
+    align-self: center;
+   }
 }
