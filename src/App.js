@@ -24,14 +24,6 @@ function App() {
       foto: "https://github.com/harlandlohora.png",
       nombre: "Harland lohora",
       puesto: "Desarrollador",
-      fav: true
-    },
-    {
-      id: uuid(),
-      equipo: "Programación",
-      foto: "https://github.com/lbasualdo88.png",
-      nombre: "Genesys",
-      puesto: "Ciencia",
       fav: false
     },
     {
@@ -56,7 +48,7 @@ function App() {
       foto: "https://github.com/JoseDarioGonzalezCha.png",
       nombre: "JoseDario Gonzalez",
       puesto: "Profe",
-      fav: true
+      fav: false
     }
 
 
